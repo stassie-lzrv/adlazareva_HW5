@@ -3,27 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		81F889DC29412116004BEFFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889DB29412116004BEFFC /* AppDelegate.swift */; };
 		81F889DE29412116004BEFFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889DD29412116004BEFFC /* SceneDelegate.swift */; };
-		81F889E029412116004BEFFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889DF29412116004BEFFC /* ViewController.swift */; };
-		81F889E329412116004BEFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F889E129412116004BEFFC /* Main.storyboard */; };
 		81F889E529412118004BEFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F889E429412118004BEFFC /* Assets.xcassets */; };
 		81F889E829412118004BEFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F889E629412118004BEFFC /* LaunchScreen.storyboard */; };
+		81F889F1294123EB004BEFFC /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889F0294123EB004BEFFC /* CALayer.swift */; };
+		81F889F329412429004BEFFC /* ColorPaletteViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889F229412428004BEFFC /* ColorPaletteViewExtension.swift */; };
+		81F889F529412448004BEFFC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889F429412448004BEFFC /* UIColorExtension.swift */; };
+		81F889F82941247A004BEFFC /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889F72941247A004BEFFC /* ColorPaletteView.swift */; };
+		81F889FC294124C3004BEFFC /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889FB294124C3004BEFFC /* NotesViewController.swift */; };
+		81F889FE29412511004BEFFC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F889FD29412511004BEFFC /* WelcomeViewController.swift */; };
+		81F88A012941256A004BEFFC /* AddNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A002941256A004BEFFC /* AddNoteCell.swift */; };
+		81F88A03294129AF004BEFFC /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A02294129AF004BEFFC /* NoteCell.swift */; };
+		81F88A05294129CC004BEFFC /* ShortNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A04294129CC004BEFFC /* ShortNote.swift */; };
+		81F88A0829412A10004BEFFC /* AddNoteCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A0729412A10004BEFFC /* AddNoteCellExtension.swift */; };
+		81F88A0B29412A46004BEFFC /* AddNoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A0A29412A46004BEFFC /* AddNoteDelegate.swift */; };
+		81F88A0D29412A5F004BEFFC /* ColorChangeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A0C29412A5F004BEFFC /* ColorChangeProtocol.swift */; };
+		81F88A1029412A8F004BEFFC /* UIView+Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A0F29412A8F004BEFFC /* UIView+Pin.swift */; };
+		81F88A1229412F9A004BEFFC /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A1129412F9A004BEFFC /* NewsListViewController.swift */; };
+		81F88A15294131E9004BEFFC /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A14294131E9004BEFFC /* NewsCell.swift */; };
+		81F88A1729413B79004BEFFC /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A1629413B79004BEFFC /* NewsViewModel.swift */; };
+		81F88A1929415286004BEFFC /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A1829415286004BEFFC /* NewsViewController.swift */; };
+		81F88A242942752E004BEFFC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F88A232942752E004BEFFC /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81F889D829412116004BEFFC /* adlazareva_HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adlazareva_HW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F889DB29412116004BEFFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F889DD29412116004BEFFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81F889DF29412116004BEFFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81F889E229412116004BEFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81F889E429412118004BEFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81F889E729412118004BEFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F889E929412118004BEFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F889F0294123EB004BEFFC /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		81F889F229412428004BEFFC /* ColorPaletteViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteViewExtension.swift; sourceTree = "<group>"; };
+		81F889F429412448004BEFFC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		81F889F72941247A004BEFFC /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
+		81F889FB294124C3004BEFFC /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		81F889FD29412511004BEFFC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		81F88A002941256A004BEFFC /* AddNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCell.swift; sourceTree = "<group>"; };
+		81F88A02294129AF004BEFFC /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		81F88A04294129CC004BEFFC /* ShortNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortNote.swift; sourceTree = "<group>"; };
+		81F88A0729412A10004BEFFC /* AddNoteCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCellExtension.swift; sourceTree = "<group>"; };
+		81F88A0A29412A46004BEFFC /* AddNoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteDelegate.swift; sourceTree = "<group>"; };
+		81F88A0C29412A5F004BEFFC /* ColorChangeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeProtocol.swift; sourceTree = "<group>"; };
+		81F88A0F29412A8F004BEFFC /* UIView+Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Pin.swift"; sourceTree = "<group>"; };
+		81F88A1129412F9A004BEFFC /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
+		81F88A14294131E9004BEFFC /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		81F88A1629413B79004BEFFC /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		81F88A1829415286004BEFFC /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		81F88A232942752E004BEFFC /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +88,111 @@
 		81F889DA29412116004BEFFC /* adlazareva_HW5 */ = {
 			isa = PBXGroup;
 			children = (
+				81F88A1D2942745F004BEFFC /* Components */,
+				81F88A1A29427433004BEFFC /* Models */,
+				81F88A0929412A2B004BEFFC /* Protocols */,
+				81F889F92941249A004BEFFC /* Controllers */,
+				81F88A22294274D6004BEFFC /* Extensions */,
 				81F889DB29412116004BEFFC /* AppDelegate.swift */,
 				81F889DD29412116004BEFFC /* SceneDelegate.swift */,
-				81F889DF29412116004BEFFC /* ViewController.swift */,
-				81F889E129412116004BEFFC /* Main.storyboard */,
 				81F889E429412118004BEFFC /* Assets.xcassets */,
 				81F889E629412118004BEFFC /* LaunchScreen.storyboard */,
 				81F889E929412118004BEFFC /* Info.plist */,
 			);
 			path = adlazareva_HW5;
+			sourceTree = "<group>";
+		};
+		81F889EF294123C7004BEFFC /* ColorExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				81F889F0294123EB004BEFFC /* CALayer.swift */,
+				81F889F229412428004BEFFC /* ColorPaletteViewExtension.swift */,
+				81F889F429412448004BEFFC /* UIColorExtension.swift */,
+			);
+			path = ColorExtensions;
+			sourceTree = "<group>";
+		};
+		81F889F62941245D004BEFFC /* ColorPaletteView */ = {
+			isa = PBXGroup;
+			children = (
+				81F889F72941247A004BEFFC /* ColorPaletteView.swift */,
+			);
+			path = ColorPaletteView;
+			sourceTree = "<group>";
+		};
+		81F889F92941249A004BEFFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81F889FB294124C3004BEFFC /* NotesViewController.swift */,
+				81F889FD29412511004BEFFC /* WelcomeViewController.swift */,
+				81F88A1129412F9A004BEFFC /* NewsListViewController.swift */,
+				81F88A1829415286004BEFFC /* NewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81F889FF29412542004BEFFC /* NotesView */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A002941256A004BEFFC /* AddNoteCell.swift */,
+				81F88A02294129AF004BEFFC /* NoteCell.swift */,
+				81F88A04294129CC004BEFFC /* ShortNote.swift */,
+			);
+			path = NotesView;
+			sourceTree = "<group>";
+		};
+		81F88A06294129F7004BEFFC /* NotesExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A0729412A10004BEFFC /* AddNoteCellExtension.swift */,
+			);
+			path = NotesExtensions;
+			sourceTree = "<group>";
+		};
+		81F88A0929412A2B004BEFFC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A0A29412A46004BEFFC /* AddNoteDelegate.swift */,
+				81F88A0C29412A5F004BEFFC /* ColorChangeProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		81F88A0E29412A75004BEFFC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A0F29412A8F004BEFFC /* UIView+Pin.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		81F88A1A29427433004BEFFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A1629413B79004BEFFC /* NewsViewModel.swift */,
+				81F88A232942752E004BEFFC /* ApiService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81F88A1D2942745F004BEFFC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A14294131E9004BEFFC /* NewsCell.swift */,
+				81F889F62941245D004BEFFC /* ColorPaletteView */,
+				81F889FF29412542004BEFFC /* NotesView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		81F88A22294274D6004BEFFC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81F88A0E29412A75004BEFFC /* UIView */,
+				81F88A06294129F7004BEFFC /* NotesExtensions */,
+				81F889EF294123C7004BEFFC /* ColorExtensions */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +231,7 @@
 				};
 			};
 			buildConfigurationList = 81F889D329412115004BEFFC /* Build configuration list for PBXProject "adlazareva_HW5" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -127,7 +255,6 @@
 			files = (
 				81F889E829412118004BEFFC /* LaunchScreen.storyboard in Resources */,
 				81F889E529412118004BEFFC /* Assets.xcassets in Resources */,
-				81F889E329412116004BEFFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +265,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81F889E029412116004BEFFC /* ViewController.swift in Sources */,
+				81F889FE29412511004BEFFC /* WelcomeViewController.swift in Sources */,
+				81F88A1729413B79004BEFFC /* NewsViewModel.swift in Sources */,
+				81F889F329412429004BEFFC /* ColorPaletteViewExtension.swift in Sources */,
+				81F889F82941247A004BEFFC /* ColorPaletteView.swift in Sources */,
+				81F88A0B29412A46004BEFFC /* AddNoteDelegate.swift in Sources */,
+				81F889F1294123EB004BEFFC /* CALayer.swift in Sources */,
+				81F88A242942752E004BEFFC /* ApiService.swift in Sources */,
+				81F88A1029412A8F004BEFFC /* UIView+Pin.swift in Sources */,
+				81F88A1929415286004BEFFC /* NewsViewController.swift in Sources */,
+				81F88A0D29412A5F004BEFFC /* ColorChangeProtocol.swift in Sources */,
+				81F88A012941256A004BEFFC /* AddNoteCell.swift in Sources */,
+				81F889FC294124C3004BEFFC /* NotesViewController.swift in Sources */,
 				81F889DC29412116004BEFFC /* AppDelegate.swift in Sources */,
+				81F88A03294129AF004BEFFC /* NoteCell.swift in Sources */,
 				81F889DE29412116004BEFFC /* SceneDelegate.swift in Sources */,
+				81F88A0829412A10004BEFFC /* AddNoteCellExtension.swift in Sources */,
+				81F88A15294131E9004BEFFC /* NewsCell.swift in Sources */,
+				81F88A05294129CC004BEFFC /* ShortNote.swift in Sources */,
+				81F889F529412448004BEFFC /* UIColorExtension.swift in Sources */,
+				81F88A1229412F9A004BEFFC /* NewsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		81F889E129412116004BEFFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81F889E229412116004BEFFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		81F889E629412118004BEFFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +428,9 @@
 				INFOPLIST_FILE = adlazareva_HW5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +440,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +456,9 @@
 				INFOPLIST_FILE = adlazareva_HW5/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +468,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
